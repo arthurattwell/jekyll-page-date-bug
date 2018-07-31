@@ -1,0 +1,9 @@
+baseurl: "/jekyll-page-date-bug"
+
+collections:
+  test:
+    output: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
