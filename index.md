@@ -21,6 +21,8 @@ For instance:
 
 This applies when the collection page does *not* include a `date:` in its YAML page frontmatter. When page frontmatter includes a `date:`, the `page.date` always generates as expected.
 
+This behaviour is the same whether we `jekyll serve` or `jekyll build` and `jekyll build --incremental`.
+
 Note that pages outside collections (like this home page) never get an automatic `page.date`. For instance, no `page.date` here: {{ page.date }}. This may be expected behaviour but is not the subject of this test.
 
 [^1]: Windows 10 Pro with Ruby 2.3.3 and Jekyll 3.8.3; Ubuntu 16.04 with Ruby 2.4.1 and Jekyll 3.8.3.
